@@ -15,7 +15,7 @@ function ContactForm() {
             <div className="">
             <div className="form-wrapper">
             <form onSubmit={handleSubmit}>
-                <h1 className="text-[#AC34FF] text-3xl text-center font-bold pb-3 pt-10">Get in touch</h1>
+            <h1 class="animate-text bg-gradient-to-r from-teal-500 via-purple-600 to-orange-500 bg-clip-text text-transparent text-5xl font-black pb-5 md:text-4xl lg:text-5xl">Get in touch.</h1>
                 <h2 className= "text-white text-xl text-center font-bold pb-5">Let's chat over a cup of coffee!</h2>    
 
                 <div className="form-item">
@@ -55,20 +55,14 @@ function ContactForm() {
                 </div>     
                        
 
-            <div className="md:flex md:items-center mb-10">
+            <div className="md:flex md:items-center mt-5 mb-10">
                 <div>
-                    <button className="shadow bg-[#AC34FF] hover:bg-fuchsia-400 focus:shadow-outline 
-focus:outline-none text-white font-bold px-12 py-3 rounded-lg" type="submit" disabled={state.
-submitting}>
-                    submit
+                    <button className="shadow bg-[#AC34FF] hover:bg-fuchsia-400 focus:shadow-outline focus:outline-none text-white font-bold text-lg px-12 py-3 rounded-lg" type="submit" disabled={state.submitting}>
+                    Submit
                     </button>
                 </div>
             </div>           
         </form>
-
-        <div className='text-white'>You can also contact me on:</div>
-
-
 
         </div>
         </div>

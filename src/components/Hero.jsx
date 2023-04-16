@@ -3,7 +3,7 @@ import Typed from 'react-typed';
 
 const Hero = () => {
   return (
-    <div className='flex text-white'>
+    <div className='flex text-white pb-24 border-b-2 border-slate-500'>
         <div className='flex'>
         <img className="ml-24 pl-12 object-contain h-192 w-96 " src="/images/yessy2.png" alt="yessy"></img> 
         </div>
