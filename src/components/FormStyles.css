@@ -1,0 +1,94 @@
+.form-wrapper {
+    margin-top: 150px;
+    top: 55%;
+    /* left: 50%; */
+    /* -ms-transform: translate(-50%, -50%); */
+    /* transform: translate(-50%, -50%); */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+  }
+  
+  form {
+    margin: 0;
+    padding-left: 10px;
+    box-sizing: border-box;
+    font-family: var(--body-font-family);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 18px;
+    margin-bottom: 10px;
+    background-color: transparent;
+  }
+  
+  
+  .form-item {
+    position: relative;
+    width: 550px;
+    margin-left: 20px;
+  }
+  
+  .form-item input,
+  .form-item textarea {
+    width: 95%;
+    padding: 20px;
+    /* margin-left: 5px; */
+    border: 2px solid #AC34FF;
+    background-color: lightgrey;
+    border-radius: 10px;
+    outline: none;
+    color: #AC34FF;
+    font-size: 18px;
+    transition: 0.3s;
+    font-family: var(--body-font-family);
+  }
+  
+  .form-item textarea {
+    height: 80px;
+  }
+  
+  .form-item span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    pointer-events: none;
+    font-size: 15px;
+    color: #AC34FF;
+    /* text-transform: uppercase; */
+    transition: 0.3s;
+    letter-spacing: 0.3em;
+    background-color: transparent;
+  }
+  
+  .form-item input:valid ~ label span,
+  .form-item input:focus ~ label span,
+  .form-item textarea:valid ~ label span,
+  .form-item textarea:focus ~ label span {
+    color: white;
+    transform: translateX(10px) translateY(-7px);
+    font-size: 0.8em;
+    font-weight: bold;
+    padding: 0 10px;
+    background: #AC34FF;
+    border-radius: 5px;
+    border-left: 1px solid var(--accent-color);
+    border-right: 1px solid var(--accent-color);
+    letter-spacing: 0.2em;
+  }
+  
+  .form-item input:valid,
+  .form-item input:focus,
+  .form-item textarea:valid,
+  .form-item textarea:focus {
+    border: 1px solid var(--accent-color);
+  }
+  
+  @media (max-width: 768px) {
+    .form-item {
+      width: 300px;
+      left: -20px;
+    }
+  }
+  
