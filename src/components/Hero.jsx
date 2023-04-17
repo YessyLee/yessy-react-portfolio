@@ -1,9 +1,10 @@
 import React from 'react';
 import Typed from 'react-typed';
+import { Link, animateScroll as scroll } from 'react-scroll';
 
 const Hero = () => {
   return (
-    <div className='flex flex-wrap text-white pb-24 border-b-2 border-slate-500'>
+    <div name='home' className='flex flex-wrap text-white pb-24 border-b-2 border-slate-500'>
         <div className='flex flex-wrap'>
         <img className="ml-24 pl-10 object-contain h-auto w-96" src="/images/yessy2.png" alt="yessy"></img> 
         </div>
@@ -28,7 +29,7 @@ const Hero = () => {
           />
         </div>
         <p className='md:text-xl text-lg py-3 text-gray-300'>I am a 2023 She Codes Plus alumni who is highly motivated and ready to tackle my first role in tech as a developer!</p>
-        <button className='bg-[#AC34FF] hover:bg-fuchsia-400  w-[200px] rounded-md font-bold my-6 py-3 text-white text-lg'>Get in touch!</button>
+        <button className='bg-[#AC34FF] hover:bg-fuchsia-400  w-[200px] rounded-md font-bold my-6 py-3 text-white text-lg'><Link to="contact" smooth={true} offset={-40} duration={500}>Get in touch!</Link></button>
       </div>
     </div>
   );

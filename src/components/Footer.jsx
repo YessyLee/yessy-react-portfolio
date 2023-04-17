@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link, animateScroll as scroll } from 'react-scroll';
+
 import {
   FaFacebookSquare,
   FaGithubSquare,
@@ -17,26 +19,27 @@ const Footer = () => {
     
     <div>
       <h6 className='font-bold text-lg text-purple-400'>SITE MAP</h6>
+      <a className="cursor-pointer">
         <ul>
-            <li className='text-md'>Home</li>
-            <li className='text-md'>My portfolio</li>
-            <li className='text-md'>Get to know me</li>
-            <li className='text-md'>Contact me</li>
-        </ul>
+            <li className='text-md hover:text-purple-400'><Link to="home" smooth={true} offset={-200} duration={500}>Home</Link></li>
+            <li className='text-md hover:text-purple-400'><Link to="portfolio" smooth={true} offset={-100} duration={500}>My portfolio</Link></li>
+            <li className='text-md hover:text-purple-400'><Link to="about" smooth={true} offset={-100} duration={500}>Get to know me</Link></li>
+            <li className='text-md hover:text-purple-400'><Link to="contact" smooth={true} offset={-40} duration={500}>Contact me</Link></li>
+        </ul></a>
     </div>
 
     <div>
       <h6 className='font-bold text-lg text-purple-400'>GET IN TOUCH</h6>
         <ul>
-          <li className='text-md'>E: yessy.rayner@gmail.com</li>
+          <li className='text-md'><a href='mailto:yessy.rayner@gmail.com'> E: yessy.rayner@gmail.com</a></li>
           <li className='text-md'>M: 0433 550 513</li>
           <li className='text-md'>Connect with me on:</li>
         </ul>
 
     <div className='flex justify-start md:w-[75%] my-6 gap-5 text-purple-400'>
-     <FaGithubSquare size={30} />
-     <FaLinkedin size={30} />
-     <FaInstagram size={30} />
+      <a href="https://github.com/YessyLee"><FaGithubSquare size={30} className='hover:text-purple-100' /></a>
+      <a href="https://www.linkedin.com/in/yessy-rayner-perth/"><FaLinkedin size={30} className='hover:text-purple-100' /></a>
+      <a href='https://www.instagram.com/yessy_lee1/'><FaInstagram size={30} className='hover:text-purple-100'/></a>
     </div>
  </div>
 </div>

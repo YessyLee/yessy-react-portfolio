@@ -11,7 +11,7 @@ function ContactForm() {
     }
 
     return (
-        <body className="flex min-h-screen justify-center items-center">
+        <body name="contact" className="flex min-h-screen justify-center items-center">
             <div className="">
             <div className="form-wrapper">
             <form onSubmit={handleSubmit}>
