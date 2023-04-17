@@ -1,18 +1,19 @@
 # Welcome to my First React.js Profile Page
 
 ## Overview
-Decided to a create a new profile site using React.js in time for showcase at the She Codes Plus Showcase on 18 April 2023
+Decided to a create a new profile site using React.js in time for the She Codes Plus Showcase on 18 April 2023. I hope you like my new profile page, any feedback are welcome 💜
 
-## Link:
+## Link
 - My live website: https://yessy-lee.netlify.app/
 
-## Theme:
-- Simple dark and purple theme to showcase my versatility in design for both dark and light themes
-- Purple is my favourite colour, I have implemented light purple on my first profile webpage using pure html/CSS, so would like to show something different that are still incorporating purple theme.
+## Theme
+- Simple dark and purple theme to showcase my versatility in designing for both dark and light themes webpage
+- Purple is my favourite colour, I have implemented light purple on my first profile webpage using pure html/CSS, so would like to show something different that are still incorporating the vibrant purple colours.
 
-## Library and extensions:
+## Library and extensions
 
-- Build using React, Javascript, TailwindCSS, html/CSS
+- Built using React, Javascript, HTML
+- Styled with TailwindCSS, HTML/CSS
 - Extensions: uuid, react-scroll, react-icons, react-typed, formspree
 
 ## Work in Progress
