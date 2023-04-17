@@ -7,8 +7,8 @@ Decided to a create a new profile site using React.js in time for the She Codes 
 - My live website: https://yessy-lee.netlify.app/
 
 ## Theme
-- Simple dark and purple theme to showcase my versatility in designing both dark and light themes webpages
-- Purple is my favourite colour, I have implemented light purple on my first profile webpage using pure html/CSS, so would like to show something different that are still incorporating the vibrant purple colours.
+- Simple dark and purple theme with a dash of soft pink.  
+- Purple is my favourite colour, I have implemented light purple on my first profile webpage using pure html/CSS, so would like to show something different that are still incorporating the vibrant purple colours. This is to showcase my versatility in designing both dark and light themes webpages.
 
 ## Library and extensions
 
