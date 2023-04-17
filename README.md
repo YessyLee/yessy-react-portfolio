@@ -13,7 +13,7 @@ Decided to a create a new profile site using React.js in time for the She Codes 
 ## Library and extensions
 
 - Built using React, Javascript, HTML
-- Styled with TailwindCSS, HTML/CSS
+- Styled with TailwindCSS, HTML/CSS, mobile responsive
 - Extensions: uuid, react-scroll, react-icons, react-typed, formspree
 
 ## Work in Progress
