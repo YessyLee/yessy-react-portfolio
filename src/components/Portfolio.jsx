@@ -5,7 +5,7 @@ import { SiTailwindcss, SiCsswizardry, SiPython, SiPandas, SiJupyter, SiNumpy, S
 
 const Portfolio = () => {
   return (
-    <body className="mt-10 p-24 border-b-2 border-slate-500">
+    <body className="mt-10 p-24 mr-8 border-b-2 border-slate-500">
       
       <h1 class="animate-text text-center bg-gradient-to-r from-teal-500 via-purple-600 to-orange-500 bg-clip-text text-transparent text-5xl font-black pb-12 mb-5 md:text-4xl lg:text-5xl">My portfolio.</h1>
 
@@ -91,7 +91,7 @@ const Portfolio = () => {
         <p className='mt-4 text-slate-100 text-lg'>Prior to She Codes Plus, I completed an intensive 16-week Data Analytics bootcamp. I always love working with numbers, data, reports and visualisation. Through data, we could made informed and better decision that could benefit everyone.</p>
         <p className='mt-5 mb-5 text-slate-100 text-lg'>In this capstone project, I analysed bike rental market and presented my recommendation through live visual storytelling. I created the prediction using multiple regression modelling. This project was created on Jupyter Notebook using Python languages and libraries such as Pandas, Numpy, Seaborn, Matplotlib, SckitLearn and more...</p>
         <button className='bg-[#AC34FF] hover:bg-fuchsia-400  w-[200px] 
-          rounded-md font-bold py-2 ml-2 text-white text-lg'>Github repo</button>
+          rounded-md font-bold py-2 text-white text-lg'>Github repo</button>
         </div>
 
     </div>
