@@ -3,7 +3,7 @@ import './Slider.css'
 import BtnSlider from './BtnSlider'
 import dataSlider from './dataSlider'
 
-function Slider1() {
+function Slider3() {
 
     const [slideIndex, setSlideIndex] = useState(1)
 
@@ -38,7 +38,7 @@ function Slider1() {
                     className={slideIndex === index + 1 ? "slide active-anim" : "slide"}
                     >
                         <img 
-                        src={`/images/slider1/img${index + 1}.png`} 
+                        src={`/images/slider3/img${index + 1}.png`} 
                         />
                     </div>
                 )
@@ -58,7 +58,7 @@ function Slider1() {
     )
 }
 
-export default Slider1;
+export default Slider3;
 
 
 
