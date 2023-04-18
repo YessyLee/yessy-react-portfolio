@@ -1,7 +1,7 @@
 # Welcome to my First React.js Profile Page
 
 ## Overview
-Decided to a create a new profile site using React.js in time for the She Codes Plus Showcase on 18 April 2023. I hope you like my new profile page, any feedback are welcome 💜
+Decided to a create a new profile site using React.js in time for the She Codes Plus Showcase on 18 April 2023. Any feedback are welcome 💜
 
 ## Link
 - My live website: https://yessy-lee.netlify.app/
