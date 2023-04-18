@@ -10,7 +10,7 @@ import {
 
 const Footer = () => {
   return (
-    <div className='border-t-2 border-slate-400 max-w-[1240px] mx-auto py-12 px-4 grid lg:grid-cols-4 gap-8 text-gray-300'>
+    <div className='border-t-2 border-slate-400 max-w-[1240px] mx-auto py-12 px-8 grid lg:grid-cols-4 gap-8 text-gray-300'>
       <div className='col-span-2 mr-10 pr-10'>
         <h1 className='w-full text-3xl font-bold text-[#AC34FF]'>YESSY<span className='text-white'>LEE</span></h1>
         <p className='py-4'>Thank you She Codes Australia for the opportunity and your endless support in helping us achiving our career goal in tech. Forever grateful to She Codes Australia team - Kate Irwin, Angela Jacques, the amazing mentors and the rest of the crew 💜 </p>
