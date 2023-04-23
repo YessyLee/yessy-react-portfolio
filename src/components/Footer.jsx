@@ -2,7 +2,6 @@ import React from 'react';
 import { Link, animateScroll as scroll } from 'react-scroll';
 
 import {
-  FaFacebookSquare,
   FaGithubSquare,
   FaInstagram,
   FaLinkedin,
@@ -13,7 +12,7 @@ const Footer = () => {
     <div className='border-t-2 border-slate-400 max-w-[1240px] mx-auto py-12 px-8 grid lg:grid-cols-4 gap-8 text-gray-300'>
       <div className='col-span-2 mr-10 pr-10'>
         <h1 className='w-full text-3xl font-bold text-[#AC34FF]'>YESSY<span className='text-white'>LEE</span></h1>
-        <p className='py-4'>Thank you She Codes Australia for the opportunity and your endless support in helping us achiving our career goal in tech. Forever grateful to She Codes Australia team - Kate Irwin, Angela Jacques, the amazing mentors and the rest of the crew 💜 </p>
+        <p className='py-4'>Thank you She Codes Australia for the opportunity and your endless support in helping us achieving our career goal in tech. Forever grateful to She Codes Australia team - Kate Irwin, Angela Jacques, the amazing mentors and the rest of the crew 💜 </p>
         <p className='text-slate-500'>2023 Yessy Lee | She Codes Plus Australia Alumni. All rights reserved</p>
       </div>
     
@@ -33,7 +32,8 @@ const Footer = () => {
         <ul>
           <li className='text-md'><a href='mailto:yessy.rayner@gmail.com'> E: yessy.rayner@gmail.com</a></li>
           <li className='text-md'>M: 0433 550 513</li>
-          <li className='text-md'>Connect with me on:</li>
+          <li className='pt-5'></li>
+          <li className='text-md font-bold'>Connect with me on:</li>
         </ul>
 
     <div className='flex justify-start md:w-[75%] my-6 gap-5 text-purple-400'>

@@ -54,7 +54,7 @@ const Portfolio = () => {
         </div>
         <p className='mt-4 text-slate-100 lg:text-lg leading-tight'>Buybuddy is a website created by our group to help streamline purchasing decision for users, where users can easily compare products side by side from multiple websites. Buybuddy acts as a personal notebook for shopping purposes. Users can organise all of their favourite products through just one website, Buybuddy!</p>
       
-        <p className='mt-5 mb-5 text-slate-100 lg:text-lg leading-tight'>In this project, we created a fuctional backend using Django REST framework. Followed by React, Javascript, HTML/CSS on the frontend.</p>
+        <p className='mt-5 mb-5 text-slate-100 lg:text-lg leading-tight'>In this project, we created a functional backend using Django REST framework. Followed by React, Javascript, HTML/CSS on the frontend.</p>
         <button className='hover:bg-[#AC34FF] bg-fuchsia-400  w-[150px] 
           rounded-full font-bold py-2 m-2 text-white text-lg'><a href='https://buy-buddy.netlify.app/login'>Live website</a></button>
         <button className='hover:bg-[#AC34FF] bg-fuchsia-400  w-[150px] 

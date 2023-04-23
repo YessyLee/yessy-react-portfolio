@@ -4,9 +4,9 @@ import { Link, animateScroll as scroll } from 'react-scroll';
 
 const Hero = () => {
   return (
-    <div name='home' className='flex flex-wrap text-white pb-12 lg:pb-24 border-b-2 border-slate-500'>
+    <div name='home' className='flex flex-wrap h-full w-full text-white pb-12 lg:pb-24'>
         <div className='flex flex-wrap'>
-        <img className="flex flex-wrap lg:ml-24 pl-10 object-contai h-auto w-96" src="/images/yessy2.png" alt="yessy"></img> 
+        <img className="flex flex-wrap lg:ml-24 lg:pl-12 pl-3 object-cover h-auto w-96" src="/images/yessy2.png" alt="yessy"></img> 
         </div>
 
       <div className='max-w-[850px] mt-[-96px] mx-auto flex flex-col justify-center pl-8'>
